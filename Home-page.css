@@ -214,20 +214,13 @@ body {
     justify-content: center;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
-
 .image-frame {
     position: relative;
     width: 350px;
     height: 400px;
 }
 
-.portrait-placeholder {
+.portrait-image {
     width: 100%;
     height: 100%;
     background: rgba(255, 255, 255, 0.1);
@@ -240,17 +233,6 @@ img {
     border: 2px solid var(--accent-color);
 }
 
-.portrait-placeholder i {
-    font-size: 4rem;
-    color: var(--accent-color);
-    margin-bottom: 1rem;
-}
-
-.portrait-placeholder span {
-    color: var(--white);
-    font-weight: 600;
-    text-align: center;
-}
 
 .cultural-border {
     position: absolute;
